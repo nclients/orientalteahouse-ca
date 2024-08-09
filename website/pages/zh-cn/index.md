@@ -61,7 +61,7 @@ sections:
 # hero
   - type: "hero" 
     id: ""
-    height: "100" # Conditionally use only when sectionType is imgBg
+    height: "90" # Conditionally use only when sectionType is imgBg
     sectionType: "video" # video | imgWithText | imgBg
     bgVideoType: "youtube" # youtube | vimeo | gjw
     bgVideoId: "9y93vPraw8I"
@@ -75,6 +75,8 @@ sections:
     description: 
       - "欢迎光临我们的餐厅！诚邀您品尝我们的美味佳肴！"
     descriptionColor: "#ffffff"
+    isTextAlignCenter: true
+
     # title2: 
     #   - ""
     # title2Color: "#ffffff"
@@ -94,7 +96,7 @@ sections:
 
     bannerImg: ""
     imgPosition: "imgLeft" # imgLeft | imgRight
-    bannerMarginTopMobile: 20
+    bannerMarginTopMobile: 32
     imgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
    
     bottomRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
@@ -248,7 +250,7 @@ sections:
   - type: "textBlock" 
     noMarginTop: false
     id: ""
-    bgImg: "gallery/碧貴園功夫茶樓 Oriental Tea House 20.webp"
+    bgImg: "/gallery/碧貴園功夫茶樓 Oriental Tea House 20.webp"
     bgColor: "#000"
     bgOpacity: "0.6" # 0~1
     title: 
@@ -277,8 +279,8 @@ sections:
     bgColor: "#333"
     bgOpacity: "0.1" # 0~1
     title: 
-      - "🎁 Special Offers"
-    titleColor: "#FF2D2F"
+      - "🎁 特價優惠"
+    titleColor: "#6E2022"
     titleSize: 24
     description: 
       - "1、招牌烤鸭特惠：$28.8"
@@ -289,7 +291,7 @@ sections:
             消费满 $188，即赠送常规份 BBQ 猪肉或整只黄鸡"
     descriptionColor: ""
     descriptionSize: 16
-    imgName: "碧貴園功夫茶樓 Oriental Tea House 24.webp"
+    imgName: ""
     # imgAlt: "20% off cash discount on frozen handmade dumplings. 10% off cash discount on family meal takeout. Free rice with lunch. Delivery available."
     # imgHref: ""
     # buttonText: ""

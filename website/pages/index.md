@@ -74,6 +74,8 @@ sections:
     description: 
       - "Welcome to our restaurant! Come and try our dishes!"
     descriptionColor: "#ffffff"
+    isTextAlignCenter: true
+
     # title2: 
     #   - ""
     # title2Color: "#ffffff"
@@ -93,7 +95,7 @@ sections:
 
     bannerImg: ""
     imgPosition: "imgLeft" # imgLeft | imgRight
-    bannerMarginTopMobile: 20
+    bannerMarginTopMobile: 32
     imgRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
    
     bottomRounded: "3xl" # sm | md | lg | xl | 2xl | 3xl | full
@@ -136,15 +138,13 @@ sections:
   - type: "textBlock" 
     id: "about-us"
     bgImg: ""
-    bgColor: ""
+    bgColor: "#f4f4f4"
     bgOpacity: "" # 0~1
     title: 
       - "About Us"
     titleColor: "#000000"
     description: 
-      - "Welcome to Oriental Tea House! One of the best places for authentic Chinese/ Cantonese cuisine in this area. You can find almost all the dim sum you want here! All dishes at Oriental Tea House are freshly prepared with premium ingredients at the lowest price. We also serve Gong Fu tea. Gong Fu tea is the Chinese tea ceremony, the Chinese way of drinking tea. To make tea the Gong Fu way, we need a proper tea set. These are generally small tea utensils, like a teapot, small tea cups, and more.
-
-"
+      - "Welcome to Oriental Tea House! One of the best places for authentic Chinese/ Cantonese cuisine in this area. You can find almost all the dim sum you want here! All dishes at Oriental Tea House are freshly prepared with premium ingredients at the lowest price. We also serve Gong Fu tea. Gong Fu tea is the Chinese tea ceremony, the Chinese way of drinking tea. To make tea the Gong Fu way, we need a proper tea set. These are generally small tea utensils, like a teapot, small tea cups, and more."
     descriptionColor: ""
 
 # Gallery  
@@ -250,7 +250,7 @@ sections:
   - type: "textBlock" 
     noMarginTop: false
     id: ""
-    bgImg: "gallery/碧貴園功夫茶樓 Oriental Tea House 20.webp"
+    bgImg: "/gallery/碧貴園功夫茶樓 Oriental Tea House 20.webp"
     bgColor: "#000"
     bgOpacity: "0.6" # 0~1
     title: 
@@ -280,18 +280,18 @@ sections:
     bgOpacity: "0.1" # 0~1
     title: 
       - "🎁 Special Offers"
-    titleColor: "#FF2D2F"
+    titleColor: "#6E2022"
     titleSize: 24
     description: 
-      - "1.Roasted Duck special offer $28.8.| "
-      - "2.Lunch dine-in Specials Offer（Mon～Fri 11:00am~14:30pm): $3.99 ( Black Bean Sauce Spare rib, Mini Lava Custard Bun, Soy Rice Roll, Pork offal congee）Coconut Jelly.|"
+      - "1.Roasted Duck special offer  $28.8."
+      - "2.Lunch dine-in Specials Offer（Mon～Fri 11:00am~14:30pm): $3.99 ( Black Bean Sauce Spare rib, Mini Lava Custard Bun, Soy Rice Roll, Pork offal congee）Coconut Jelly."
       - "3.Dinner Dine-in special (17:00pm~21:00pm): Get a free small dish of BBQ Pork or half yellow chicken when spending over $98.Get a free regular dish of BBQ Pork or one whole yellow chicken when spending over $188."
     descriptionColor: ""
     descriptionSize: 16
     imgName: ""
     # imgAlt: "20% off cash discount on frozen handmade dumplings. 10% off cash discount on family meal takeout. Free rice with lunch. Delivery available."
     # imgHref: ""
-    # buttonText: ""
+    buttonText: ""
 
 footer:
   mode: 1 # 1
