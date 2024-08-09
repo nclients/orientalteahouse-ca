@@ -17,7 +17,7 @@ tel: "510-562-2828"
 banner:
   text: 
     # - boldText: "🥳 Special Offer"
-    - boldText: "1、招牌烤鸭特惠：$28.8。"
+    - boldText: "1、招牌烤鸭特惠：$28.8。   "
     - boldText: "2、午餐堂食特惠（周一至周五 11:00am~14:30pm）：$3.99"
     - text: " 黑豆酱排骨/迷你流心蛋挞/酱油米卷/猪肚粥/椰子冻。"
     - boldText: "3、晚餐堂食特惠（17:00pm~21:00pm）："
@@ -26,7 +26,7 @@ banner:
     - smText: ""
   # add more text...
   textColor: "#ffffff"
-  bgColor: "#E7383D"
+  bgColor: "#6E2022"
   bgOpacity: "1" # 0~1
 
 # header
@@ -299,7 +299,7 @@ footer:
   noMarginTop: true
   bgImg: "gallery/碧貴園功夫茶樓 Oriental Tea House 23.webp"
   bgColor: "#f3f4f6"
-  bgOpacity: "0.8" # 0~1
+  bgOpacity: "0.9" # 0~1
   textColor: "#000" # default white
 
   openingHoursInsteadText: "营业时间"

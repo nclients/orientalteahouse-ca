@@ -17,7 +17,7 @@ tel: "510-562-2828"
 banner:
   text: 
     # - boldText: "🥳 Special Offer"
-    - boldText: "1.Roasted Duck special offer $28.8"
+    - boldText: "1.Roasted Duck special offer $28.8  "
     - boldText: "2.Lunch dine-in Specials Offer（Mon～Fri 11:00am~14:30pm): $3.99"
     - text: " ( Black Bean Sauce Spare rib, Mini Lava Custard Bun, Soy Rice Roll, Pork offal congee）Coconut Jelly"
     - boldText: "3.Dinner Dine-in special (17:00pm~21:00pm):"
@@ -25,7 +25,7 @@ banner:
     - smText: ""
   # add more text...
   textColor: "#ffffff"
-  bgColor: "#E7383D"
+  bgColor: "#6E2022"
   bgOpacity: "1" # 0~1
 
 # header
@@ -296,10 +296,10 @@ sections:
 footer:
   mode: 1 # 1
   noMarginTop: true
-  bgImg: ""
-  bgColor: "#f3f4f6"
-  bgOpacity: "1" # 0~1
-  textColor: "#000000" # default white
+  bgImg: "gallery/碧貴園功夫茶樓 Oriental Tea House 23.webp"
+  bgColor: "#fff"
+  bgOpacity: "0.8" # 0~1
+  textColor: "#000" # default white
 
   openingHoursInsteadText: ""
   openingHours: 
